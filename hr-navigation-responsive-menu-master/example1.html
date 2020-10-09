@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Navigation Responsive Menu</title>
+<meta name="viewport" content="width=device-width">
+<meta name="keyword" content="">
+<meta name="description" content="Navigation Responsive Menu">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="css/hr.nav.res.menu.min.css">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+<script src="js/1.11.2.jquery.min.js"></script>
+<script src="js/hr.nav.res.menu.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".hr-nav-wrapper").hrNavMenu({
+		speed: 500,
+		menuType: "fromTop"
+	});
+});
+</script>
+</head>
+<body>
+<div class="plugin-content">
+	<h2>From Top</h2>
+</div>
+<nav class="hr-nav-wrapper">
+	<div class="navigation hr-navigation">
+		<ul>
+<li><a href="#">Home</a>
+				<ul>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Diversity</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Contact us</a></li>
+			
+			<li><a href="#">Services</a>
+				<ul>
+					<li><a href="#">IT consulting services</a>
+						<ul>
+							<li></li>
+							<li></li>
+<li><a href="#">IT training services</a></li>
+						</ul>
+
+
+					</li>
+					<li>
+					 	<ul>
+					 		<li></li>
+					 	</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">More details</a></li>
+			<li><a href="#">Menu</a></li>
+		</ul>
+	</div>
+	<!-- Navigation end -->
+</nav>
+</body>
+</html>

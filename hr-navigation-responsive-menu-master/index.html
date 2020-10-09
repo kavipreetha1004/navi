@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Navigation Responsive Menu </title>
+<meta name="viewport" content="width=device-width">
+<meta name="keyword" content="">
+<meta name="description" content="Navigation Responsive Menu ">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="css/hr.nav.res.menu.min.css">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+<script src="js/1.11.2.jquery.min.js"></script>
+<script src="js/hr.nav.res.menu.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".hr-nav-wrapper").hrNavMenu({
+		speed:800, //integer in milliseconds  1000,2000
+        menuType :"fromTop", //fromLeft, fromTop
+        desktopListWidth : "fluid", // fluid, default
+        openEvent : "click", //click, mouseover
+        multiple  : false // true, false
+	});
+});
+</script>
+</head>
+<body>
+<div class="plugin-content">
+<h1>Navigation Responsive Menu</h1>
+<h4></h4>
+<h4 class="mhead"></h4>
+<ul class="hr-features">
+</ul>
+<h2></h2>
+<br />
+ <div class="examples"> 	
+	<div class="exm">
+		<h3>Demo 1</h3>
+		<iframe src="example1.html" width="480" height="500"></iframe>
+	</div>
+	
+
+
+ </div>
+
+</div>
+
+
+</body>
+</html>
